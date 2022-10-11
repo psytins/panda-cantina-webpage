@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*############# Menu ###############*/
+.menu-container{
+    background-color: #D5A021;
+    color: #4B4237;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+/*Separate 'Header Logo' from 'links'*/
+.menu-link-one{
+    margin-left: auto;
+}
+.menu-link-two{
+    margin-left: 20px;
+}
+.menu-link-three{
+    margin-left: 20px;
+}
+
+.menu-logo{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.menu{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+/*############# Header ###############*/
+.header-container{
+    /*border: 1px white solid; /*Debug*/
+    background-color: #D5A021;
+    color: #4B4237;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+.header-intro{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.header-title{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.header-text{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.button-signup{
+    font-weight: bold;
+    background-color: #736B60;
+    color: #EDE7D9;
+    width: 90px;
+    height: 40px;
+    border: 0px;
+    border-radius: 20px;
+}
