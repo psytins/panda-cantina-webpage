@@ -43,7 +43,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 400px;
 }
 
 .header{
@@ -61,6 +61,7 @@
     font-size: 40px;
     margin-bottom: 20px;
 }
+
 .header-text{
     font-size: 20px;
     margin-bottom: 20px;
@@ -73,4 +74,67 @@
     height: 40px;
     border: 0px;
     border-radius: 20px;
+}
+
+/*############# Information One ###############*/
+.information-one-container{
+    background-color: #EDE7D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.information-one-tittle{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: #4B4237;
+}
+
+.information-one-display{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+}
+.information-one-display div{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.information-one-display div p{
+    margin-top: 10px;
+    color: #736B60;
+    
+}
+/*.information-one-display div img{All the display one images here}*/
+
+/*############# Quote Area ###############*/
+.quote-area-container{
+    background-color: #C9BFB7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.quote-area{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.quote-text{
+    font-size: 30px;
+    color: #4B4237;
+    font-style: italic;
+}
+.quote-owner{
+    font-size: 25px;
+    color: #4B4237;
+    font-weight: bold;
+    margin-top: 20px;
+
 }
