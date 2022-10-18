@@ -173,15 +173,29 @@
 }
 .subscribe-signup-button{
     font-weight: bold;
-    background-color: #736B60;
-    color: #EDE7D9;
+    background-color: #EDE7D9;
+    color: #736B60;
     width: 90px;
     height: 40px;
     border: 0px;
     border-radius: 20px;
     transition-duration: 0.4s;
 }
-.subscribe-signup-button{
-    background-color: #EDE7D9;
-    color: #736B60;
+.subscribe-signup-button:hover{
+    background-color: #736B60;
+    color: #EDE7D9;
+}
+
+/*############# Footer Area ###############*/
+.footer-area-container{
+    display: flex;
+    background-color: #D5A021;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.copywrite{
+    color: #4B4237;
+    font-weight: bold;
 }
